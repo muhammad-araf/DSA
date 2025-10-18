@@ -30,8 +30,9 @@ public class SingleList<AnyDataType> {
             head = newNode;
             tail = newNode;
         } else {
+            // tail.next = newNode;
+            // tail = newNode;
             tail.next = newNode;
-            tail = newNode;
         }
         size++;
     }
